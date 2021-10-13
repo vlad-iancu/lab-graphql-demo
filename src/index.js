@@ -13,6 +13,6 @@ app.get("/hello/:person?", (req, res) => {
     }
 })
 
-app.listen(5000, () => {
-    console.log("Server started on port 5000")
+app.listen(5001, () => {
+    console.log("Server started on port 5001")
 })
